@@ -7,9 +7,7 @@ OX_TARGET Like a NoPixel 4.0!
 
 ## LINKS:
 
-DISCORD: https://discord.gg/f632p3HTMw
-DISCORD: https://discord.gg/f632p3HTMw
-DISCORD: https://discord.gg/f632p3HTMw
+- [NOVA SCRIPTS](https://discord.gg/f632p3HTMw)
 
 
 ## Preview:
