@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color-default: #cfd2da;
+  --color-hover: white;
+}
+
+body {
+  visibility: hidden;
+  user-select: none;
+  white-space: nowrap;
+  margin: 0;
+  user-select: none;
+  overflow: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 40;
+}
+
+#eye {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22pt;
+  fill: #00ffa2;
+  transition: filter 0.5s ease-in-out;
+}
+
+#eye-hover {
+  filter: drop-shadow(0 0 19px #00af6fd5);
+  fill: #00af6f;
+}
+
+.eye {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22pt;
+  fill: #00ffa2;
+  transition: filter 0.5s ease-in-out;
+}
+
+.eye-hover {
+  filter: drop-shadow(0 0 19px #00af6fd5);
+  fill: #00af6f;
+}
+
+
+#options-wrapper {
+  position: absolute;
+  top: calc(48.4%);
+  left: calc(50% + 18pt);
+}
+
+.option-container {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Nunito";
+  background: rgba(7, 19, 14, 0.671);
+  font-size: 11pt;
+  line-height: 22pt;
+  vertical-align: middle;
+  transition: 300ms;
+  transform-origin: left top;
+  scale: 1;
+  height: 23pt;
+  border: 2.5px solid #00ffa200;
+  width: 140pt;
+  border-radius: 2.5px;
+  top: 0;
+  margin-bottom: 3.5px;
+}
+
+.option-container:hover {
+  background: #00ffa2c5;
+  box-shadow: 0 0 12.5px #00ffa2;
+  border: 2.5px solid #00ffa2;
+}
+
+.option-icon {
+  font-size: 12pt;
+  line-height: 22pt;
+  width: 14pt;
+  margin: 5pt;
+  color: #00ffa2;
+}
+
+.option-label {
+  font-weight: 500;
+}
