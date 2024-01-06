@@ -11,8 +11,7 @@ OX_TARGET Like a NoPixel 4.0!
 
 
 ## Preview:
-![Preview](https://i.imgur.com/WqvTIw0.png)
-![Preview](https://i.imgur.com/K4m328x.png)
+![Preview](https://i.imgur.com/uEmXrfg.png)
 
 
 
